@@ -40,7 +40,7 @@ class GoalsController < ApplicationController
             render json: goal
         else
             render json: {
-                error: 'failed to create goal',
+                error: 'Failed to create goal',
                 },
             status: :unprocessable_entity
         end
@@ -53,7 +53,7 @@ class GoalsController < ApplicationController
             render json: goal
         else
             render json: {
-                error: 'failed to delete goal',
+                error: 'Failed to delete goal',
                 },
             status: :unprocessable_entity
         end

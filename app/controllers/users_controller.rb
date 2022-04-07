@@ -18,7 +18,7 @@ class UsersController < ApplicationController
                     status: :created
         else
             render json: {
-                    error: 'failed to create user',
+                    error: 'Failed to create user',
                     },
                     status: :unprocessable_entity
         end

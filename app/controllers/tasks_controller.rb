@@ -13,7 +13,7 @@ class TasksController < ApplicationController
             render json: task
         else
             render json: {
-                error: 'failed to create task',
+                error: 'Failed to create task',
                 },
             status: :unprocessable_entity
         end
@@ -26,7 +26,7 @@ class TasksController < ApplicationController
             render json: task
         else
             render json: {
-                error: 'failed to update task',
+                error: 'Failed to update task',
                 },
             status: :unprocessable_entity
         end
@@ -40,7 +40,7 @@ class TasksController < ApplicationController
             render json: task
         else
             render json: {
-                error: 'failed to delete task',
+                error: 'Failed to delete task',
                 },
             status: :unprocessable_entity
         end

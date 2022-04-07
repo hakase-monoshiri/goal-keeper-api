@@ -14,7 +14,7 @@ class AuthController < ApplicationController
             status: :accepted
         else
             render json: {
-                message: "Didn't work"
+                error: "Sorry, something went wrong. Please verify your username and password."
             },
             status: :unauthorized
         end
