@@ -32,3 +32,4 @@ config/master.key
 log/development.log
 tmp/cache/bootsnap/load-path-cache
 log/development.log
+log/development.log
